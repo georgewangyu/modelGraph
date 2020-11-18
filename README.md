@@ -62,35 +62,44 @@ create git repository 4. In RStudio, went to Tools \> Project Options …
 \> Git/SVN. Under “Version control system”, select “Git” and confirmed
 yes. 5. Ran git init in console. 6. Committed the project.
 
-\#\#\#Linking to Github Repository: 1. Ran use\_github() and confirmed
-selections
+### Linking to Github Repository:
 
-\#\#\#Creating an R package with functions: 1. Turned my function from
-assignment 1-B into an R package. 2. use\_r(“modelGraph”) and modified
-file by adding the function. 3. Tried the function by testing on the
-console. 4. Tested function by using load\_all(). 5. Clicked on check to
-ensure that the package was still intact.
+1.  Ran use\_github() and confirmed selections
 
-\#\#\#Editing Description file: 1. Added license via console:
-use\_mit\_license(“George Wang”).
+### Creating an R package with functions:
 
-\#\#\#Running Roxygen skeleton: 1. Used “Code \> Insert roxygen
-skeleton” and then added appropriate names, parameters, export, then
-ran document(). 2. Ran install().
+1.  Turned my function from assignment 1-B into an R package.
+2.  use\_r(“modelGraph”) and modified file by adding the function.
+3.  Tried the function by testing on the console.
+4.  Tested function by using load\_all().
+5.  Clicked on check to ensure that the package was still intact.
 
-\#\#\#Creating tests: 1. Ran use\_testthat() and then manually added my
-tests for the function. 2. Manually changed the functions to include
-dplyr::, ggplot2::, gap minder:: for all associated functions and
-datasets for dependencies 3. Indicated dependency using
-use\_package(“gapminder”), use\_package(“dplyr”),
-use\_package(“ggplot2”)
+### Editing Description file:
 
-\#\#\#Adding and editing readme file: 1. Add a package README with
-use\_readme\_rmd() 2. Edited manually to included further information.
-3. Added line on installation: other people can install the package with
-devtools::install\_github(“your\_username/package\_name”)
+1.  Added license via console: use\_mit\_license(“George Wang”).
+
+### Running Roxygen skeleton:
+
+1.  Used “Code \> Insert roxygen skeleton” and then added appropriate
+    names, parameters, export, then ran document().
+2.  Ran install().
+
+### Creating tests:
+
+1.  Ran use\_testthat() and then manually added my tests for the
+    function.
+2.  Manually changed the functions to include dplyr::, ggplot2::, gap
+    minder:: for all associated functions and datasets for dependencies
+3.  Indicated dependency using use\_package(“gapminder”),
+    use\_package(“dplyr”), use\_package(“ggplot2”)
+
+### Adding and editing readme file:
+
+1.  Add a package README with use\_readme\_rmd()
+2.  Edited manually to included further information.
+3.  Added line on installation: other people can install the package
+    with devtools::install\_github(“your\_username/package\_name”)
 
 \#\#\#Creating a vignette: 4. Made a vignette using use\_vignette().
 
-\#\#\#Checked all functions and tests are still working before knitting
-readme file with build\_readme().
+### Checked all functions and tests are still working before knitting readme file with build\_readme().
