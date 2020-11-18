@@ -54,13 +54,16 @@ You can also embed plots, for example:
 
 This is what I did to create my R package:
 
-\#\#\#Steps that I took to create an R package and commit as git
-repository: 1. Loading devtools in the console (this must be done every
-time the console restarts), using library(devtools). 2. Ran
-create\_package(“\~/RStudio STAT 545/modelGraph”) 3. Ran use\_git() to
-create git repository 4. In RStudio, went to Tools \> Project Options …
-\> Git/SVN. Under “Version control system”, select “Git” and confirmed
-yes. 5. Ran git init in console. 6. Committed the project.
+### Steps that I took to create an R package and commit as git repository:
+
+1.  Loading devtools in the console (this must be done every time the
+    console restarts), using library(devtools).
+2.  Ran create\_package(“\~/RStudio STAT 545/modelGraph”)
+3.  Ran use\_git() to create git repository
+4.  In RStudio, went to Tools \> Project Options … \> Git/SVN. Under
+    “Version control system”, select “Git” and confirmed yes.
+5.  Ran git init in console.
+6.  Committed the project.
 
 ### Linking to Github Repository:
 

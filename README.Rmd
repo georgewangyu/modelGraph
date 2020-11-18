@@ -53,7 +53,7 @@ plot(pressure)
 
 This is what I did to create my R package:
 
-###Steps that I took to create an R package and commit as git repository:
+### Steps that I took to create an R package and commit as git repository:
 1. Loading devtools in the console (this must be done every time the console restarts), using library(devtools).
 2. Ran create_package(“~/RStudio STAT 545/modelGraph”)
 3. Ran use_git() to create git repository
