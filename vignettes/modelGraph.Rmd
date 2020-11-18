@@ -17,3 +17,5 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(modelGraph)
 ```
+
+This is how the model graph works.

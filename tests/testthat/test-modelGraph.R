@@ -1,6 +1,3 @@
-library(gapminder)
-library(testthat)
-
 test_that("graph is using numeric values for x axis", {
   expect_error(plot_modelgraph(gapminder::gapminder, continent, country, model_type = "lm"))
   expect_error(plot_modelgraph(gapminder::gapminder, continent, lifeExp, model_type = "lm"))

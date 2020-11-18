@@ -2,13 +2,26 @@
 % Please edit documentation in R/modelGraph.R
 \name{modelGraph}
 \alias{modelGraph}
+\alias{plot_modelgraph}
 \title{Model a graph based on numeric dataset}
+\usage{
+plot_modelgraph(
+  data,
+  x,
+  y,
+  model_type = "lm",
+  remove_na = TRUE,
+  axis_title_color = "black",
+  axis_title_size = 12,
+  ...
+)
+}
 \arguments{
-\item{data}{Dataset/tibble}
+\item{data}{tibble}
 
-\item{x}{Numeric vector}
+\item{x}{Numeric column}
 
-\item{y}{Numeric vector}
+\item{y}{Numeric column}
 
 \item{model_type}{String for type of model function used}
 
@@ -21,12 +34,11 @@
 \item{...}{Ellipsis for other other arguments that can be used in ggplot}
 }
 \value{
-A ggplot graph which contains a model type of the given numeric dataset/tibble.
+A ggplot graph which contains a model type of the given numeric tibble.
 }
 \description{
 Model a graph based on numeric dataset
 }
 \examples{
-
 plot_modelgraph(mtcars, cyl, mpg, model_type = "lm")
 }

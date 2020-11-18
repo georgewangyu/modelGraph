@@ -1,13 +1,12 @@
 Package: modelGraph
-Title: Takes numeric datasets and forms models using ggplot.
+Title: Takes a tibble and forms ggplot model using numeric columns from tibble
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "George",
            family = "Wang",
            role = c("aut", "cre"),
-           email = "gywang912@gmail.comuse",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+           email = "gywang912@gmail.com")
+Description: This function allows you to create a model graph. The graph takes in an x and y arguments from the provided tibble column variables and creates a graph based on the model chosen (such as lm, glm, etc). You can also decide whether to remove N/A values from geom_point, as well as choose the color and size of axis titles. The function must have numeric x and y arguments and will stop if given other data types.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -18,7 +17,9 @@ Suggests:
     knitr,
     rmarkdown
 Imports: 
-    gapminder
+    gapminder,
+    dplyr,
+    ggplot2
 VignetteBuilder: knitr
 URL: https://github.com/georgewangyu/modelGraph
 BugReports: https://github.com/georgewangyu/modelGraph/issues
