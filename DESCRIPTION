@@ -1,5 +1,5 @@
 Package: modelGraph
-Title: What the Package Does (One Line, Title Case)
+Title: Takes numeric datasets and forms models using ggplot.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "George",
@@ -20,3 +20,5 @@ Suggests:
 Imports: 
     gapminder
 VignetteBuilder: knitr
+URL: https://github.com/georgewangyu/modelGraph
+BugReports: https://github.com/georgewangyu/modelGraph/issues
