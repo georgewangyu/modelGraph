@@ -53,7 +53,7 @@ plot(pressure)
 
 This is what I did to create my R package:
 
-Steps that I took to create an R package and commit as git repository:
+###Steps that I took to create an R package and commit as git repository:
 1. Loading devtools in the console (this must be done every time the console restarts), using library(devtools).
 2. Ran create_package(“~/RStudio STAT 545/modelGraph”)
 3. Ran use_git() to create git repository
@@ -61,37 +61,37 @@ Steps that I took to create an R package and commit as git repository:
 5. Ran git init in console.
 6. Committed the project.
 
-Linking to Github Repository:
+###Linking to Github Repository:
 1. Ran use_github() and confirmed selections
 
-Creating an R package with functions:
+###Creating an R package with functions:
 1. Turned my function from assignment 1-B into an R package.
 2. use_r(“modelGraph”) and modified file by adding the function.
 3. Tried the function by testing on the console.
 4. Tested function by using load_all().
 5. Clicked on check to ensure that the package was still intact.
 
-Editing Description file:
+###Editing Description file:
 1. Added license via console: use_mit_license(“George Wang”).
 
-Running Roxygen skeleton
+###Running Roxygen skeleton:
 1. Used “Code > Insert roxygen skeleton” and then added appropriate names, parameters, export, then ran document().
 2. Ran install().
 
-Creating tests:
+###Creating tests:
 1. Ran use_testthat() and then manually added my tests for the function.
 2. Manually changed the functions to include dplyr::, ggplot2::, gap minder:: for all associated functions and datasets for dependencies
 3. Indicated dependency using use_package(“gapminder”), use_package(“dplyr”), use_package(“ggplot2”)
 
-Adding and editing readme file:
+###Adding and editing readme file:
 1. Add a package README with use_readme_rmd()
 2. Edited manually to included further information.
 3. Added line on installation: other people can install the package with devtools::install_github("your_username/package_name")
 
-Creating a vignette
+###Creating a vignette:
 4. Made a vignette using use_vignette().
 
-Checked all functions and tests are still working before knitting readme file with build_readme().
+###Checked all functions and tests are still working before knitting readme file with build_readme().
 
 
 
