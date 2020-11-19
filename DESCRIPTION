@@ -1,5 +1,5 @@
 Package: modelGraph
-Title: Takes a tibble and forms ggplot model using numeric columns from tibble
+Title: Takes a Tibble and Forms ggplot Model
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "George",

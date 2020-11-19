@@ -52,7 +52,7 @@ You can also embed plots, for example:
 
 <img src="man/figures/README-pressure-1.png" width="100%" />
 
-This is what I did to create my R package:
+## This is what I did to create my R package:
 
 ### Steps that I took to create an R package and commit as git repository:
 
@@ -106,3 +106,10 @@ This is what I did to create my R package:
 \#\#\#Creating a vignette: 4. Made a vignette using use\_vignette().
 
 ### Checked all functions and tests are still working before knitting readme file with build\_readme().
+
+## Code of Conduct
+
+Please note that the modelGraph project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

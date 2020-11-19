@@ -51,7 +51,7 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-This is what I did to create my R package:
+## This is what I did to create my R package:
 
 ### Steps that I took to create an R package and commit as git repository:
 1. Loading devtools in the console (this must be done every time the console restarts), using library(devtools).
@@ -93,5 +93,8 @@ This is what I did to create my R package:
 
 ### Checked all functions and tests are still working before knitting readme file with build_readme().
 
+## Code of Conduct
+  
+  Please note that the modelGraph project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
 
