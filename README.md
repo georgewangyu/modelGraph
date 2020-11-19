@@ -103,7 +103,9 @@ You can also embed plots, for example:
 3.  Added line on installation: other people can install the package
     with devtools::install\_github(“your\_username/package\_name”)
 
-\#\#\#Creating a vignette: 4. Made a vignette using use\_vignette().
+### Creating a vignette:
+
+4.  Made a vignette using use\_vignette().
 
 ### Checked all functions and tests are still working before knitting readme file with build\_readme().
 

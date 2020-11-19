@@ -88,7 +88,7 @@ plot(pressure)
 2. Edited manually to included further information.
 3. Added line on installation: other people can install the package with devtools::install_github("your_username/package_name")
 
-###Creating a vignette:
+### Creating a vignette:
 4. Made a vignette using use_vignette().
 
 ### Checked all functions and tests are still working before knitting readme file with build_readme().
